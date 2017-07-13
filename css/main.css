@@ -1,3 +1,32 @@
 body{
-  background-color: grey;
+  background-color: #9E0000;
+}
+.custom_nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav-bar-link{
+  display: inline-block;
+  padding: 5px  10px ;
+
+  height: 5vh;
+  width: 10vw;
+}
+#logo{
+  color: #FFEEED;
+  position: absolute;
+  left: 0;
+
+}
+#social{
+  color: #FFEEED;
+
+
+}
+#dropdown{
+  color: #FFEEED;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
 }
