@@ -19,6 +19,12 @@ body{
   cursor: pointer;
 
 }
+.navBorder{
+  width: 100vw;
+  height: 1px;
+  background-color:#FFEEED;
+  margin:auto;
+}
 #logo{
   position: absolute;
   left: 0;
@@ -82,7 +88,7 @@ body{
   font-size: 2vh;
 }
 /******************** TITLE *********************/
-#title{
+.title{
   font-family: ostrichSansBold;
   color:  #FFEEED;
   letter-spacing: 0.5vw;
@@ -94,13 +100,24 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+#title{
+  position: absolute;
+  right: 0;
+  left: 0;
+  /* mobile top: 20vh*/
+  top: 30vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
 
 /****************** PROJECTS ***************/
 .projects{
+  width: 100vw;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 .projectTitle{
   font-family: ostrichSansBold;
@@ -108,10 +125,10 @@ body{
   color: #FFEEED;
   padding-top: 5px;
 }
-/***************** CALCULATOR **************/
-#calculatorImg{
-  content: url('/img/Calculator.png');
+.site{
   background-color: inherit;
+  height: 50rem;
+  width: 40rem;
   padding-top: 5em;
 }
 ul.projectDes{
@@ -122,6 +139,21 @@ ul.projectDes{
   color: #FFEEED;
   font-size: 4vw;
   font-family: ostrichSansBold;
+}
+@media only screen and (max-width: 770px) {
+  .site{
+    height: 30rem;
+    width: 20rem;
+    margin-left: 10rem;
+
+  }
+  .projectDes li{
+    float: right;
+  }
+}
+/***************** CALCULATOR **************/
+#calculatorImg{
+  content: url('/img/Calculator.png');
 }
 /****************** FONTS ******************/
 
