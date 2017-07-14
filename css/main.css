@@ -6,7 +6,9 @@ body{
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #9E0000
+  background-color: #9E0000;
+  margin-bottom: 5px;
+  z-index: 2;
 }
 .nav-bar-link{
   display: inline-block;
@@ -33,7 +35,7 @@ body{
 .menu{
   display: flex;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   right: 0;
   top: 0;
   height: 100%;
@@ -69,7 +71,7 @@ body{
   padding-top: 5px;
   padding-right: 3vw;
   cursor: pointer;
-  z-index: 2;
+  z-index: 3;
   color: #FFEEED;
   font-size: 2vh;
   position: absolute;
@@ -95,16 +97,31 @@ body{
 
 /****************** PROJECTS ***************/
 .projects{
-  background-color: #FFEEED;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.projectTitle{
+  font-family: ostrichSansBold;
+  font-size: 6vw;
+  color: #FFEEED;
+  padding-top: 5px;
+}
 /***************** CALCULATOR **************/
 #calculatorImg{
-  content: url('/img/Calculator.png');
+  content: url('/img/calculator.png');
+  background-color: inherit;
   padding-top: 5em;
+}
+ul.projectDes{
+  list-style: none;
+  padding-top: 100px;
+}
+.projectDes li{
+  color: #FFEEED;
+  font-size: 4vw;
+  font-family: ostrichSansBold;
 }
 /****************** FONTS ******************/
 
@@ -115,4 +132,9 @@ body{
 @font-face {
   font-family: ostrichSansBold;
   src: url("/fonts/OstrichSansInline-Regular.otf");
+}
+@font-face {
+  font-family: OstrichSansLight;
+  src: url('/fonts/OstrichSans-Light');
+
 }

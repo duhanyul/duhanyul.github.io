@@ -52,6 +52,5 @@
       dropDown.css("display","inline-block");
     }
 
-
-
+    /******************** PROJECTS **************/
 // });
