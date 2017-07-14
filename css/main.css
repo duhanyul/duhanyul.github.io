@@ -1,10 +1,12 @@
 body{
   background-color: #9E0000;
 }
+/***************** NAV BAR **************/
 .custom_nav{
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: #9E0000
 }
 .nav-bar-link{
   display: inline-block;
@@ -12,6 +14,7 @@ body{
   width: 10vw;
   font-size: 2vh;
   color: #FFEEED;
+  cursor: pointer;
 
 }
 #logo{
@@ -21,11 +24,8 @@ body{
 }
 #social{
 
-
-
 }
 #dropdown{
-  cursor: pointer;
   position: absolute;
   right: 0;
   margin-right: 2vw;
@@ -54,6 +54,7 @@ body{
 }
 .menu-content li{
   cursor: pointer;
+  margin-top: 5vh;
   padding: 2vh 5vw;
   margin-bottom: 2vh;
   padding-left: 0;
@@ -66,7 +67,7 @@ body{
 .closeBTN{
   position: fixed;
   padding-top: 5px;
-  padding-right: 1vw;
+  padding-right: 3vw;
   cursor: pointer;
   z-index: 2;
   color: #FFEEED;
@@ -78,7 +79,7 @@ body{
   margin-right: 2vw;
   font-size: 2vh;
 }
-
+/******************** TITLE *********************/
 #title{
   font-family: ostrichSansBold;
   color:  #FFEEED;
@@ -86,7 +87,24 @@ body{
   font-size: 10vh;
   white-space: pre-line;
   z-index: -1;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+/****************** PROJECTS ***************/
+.projects{
+  background-color: #FFEEED;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/***************** CALCULATOR **************/
+#calculatorImg{
+  content: url('/img/Calculator.png');
+  padding-top: 5em;
 }
 /****************** FONTS ******************/
 
