@@ -110,7 +110,7 @@ body{
 }
 /***************** CALCULATOR **************/
 #calculatorImg{
-  content: url('/img/calculator.png');
+  content: url('/img/Calculator.png');
   background-color: inherit;
   padding-top: 5em;
 }
