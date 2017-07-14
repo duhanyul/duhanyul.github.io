@@ -127,29 +127,26 @@ body{
 }
 .site{
   background-color: inherit;
-  height: 50rem;
-  width: 40rem;
-  padding-top: 5em;
+  height: 30rem;
+  width: 30rem;
+  position: relative;
+  top: 5em;
 }
-ul.projectDes{
-  list-style: none;
+.projectDes{
   padding-top: 100px;
 }
-.projectDes li{
+.projectDes {
   color: #FFEEED;
-  font-size: 4vw;
+  font-size: 2vw;
   font-family: ostrichSansBold;
 }
 @media only screen and (max-width: 770px) {
-  .site{
-    height: 30rem;
-    width: 20rem;
-    margin-left: 10rem;
+  .projectDes {
+
+    font-size: 4vw;
 
   }
-  .projectDes li{
-    float: right;
-  }
+
 }
 /***************** CALCULATOR **************/
 #calculatorImg{
