@@ -12,7 +12,7 @@ body{
 }
 .nav-bar-link{
   display: inline-block;
-  padding: 5px  10px ;
+  padding: 5px 0 ;
   width: 10vw;
   font-size: 2vh;
   color: #FFEEED;
@@ -27,7 +27,7 @@ body{
 }
 #logo{
   position: absolute;
-  left: 0;
+  left: 1em;
 
 }
 #social{
@@ -35,8 +35,8 @@ body{
 }
 #dropdown{
   position: absolute;
-  right: 0;
-  margin-right: 2vw;
+  right: 1em;
+  /*margin-right: 2vw;*/
 }
 .menu{
   display: flex;
@@ -132,10 +132,10 @@ body{
   position: relative;
   top: 5em;
 }
-.projectDes{
-  padding-top: 100px;
-}
+
 .projectDes {
+  position: absolute;
+  left: 5rem;
   color: #FFEEED;
   font-size: 2vw;
   font-family: ostrichSansBold;
