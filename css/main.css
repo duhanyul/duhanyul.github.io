@@ -104,7 +104,6 @@ body{
   position: absolute;
   right: 0;
   left: 0;
-  /* mobile top: 20vh*/
   top: 30vh;
   margin-left: 10vw;
   margin-right: 10vw;
@@ -132,25 +131,52 @@ body{
   position: relative;
   top: 5em;
 }
+.desTitle{
+  position: relative;
+  top: 5rem;
+}
 
 .projectDes {
   position: absolute;
-  left: 5rem;
+  /*left: 10rem;*/
+
   color: #FFEEED;
-  font-size: 2vw;
+  font-size: 2rem;
+  white-space: pre-line;
   font-family: ostrichSansBold;
-}
-@media only screen and (max-width: 770px) {
-  .projectDes {
-
-    font-size: 4vw;
-
-  }
-
 }
 /***************** CALCULATOR **************/
 #calculatorImg{
   content: url('/img/Calculator.png');
+  margin-right: 10rem;
+  margin-left: 5rem;
+}
+
+/**************** MOBILE ******************/
+@media only screen and (max-width: 770px) {
+  #title{
+    top: 20vh;
+  }
+  .projects{
+    height: 97vh;
+  }
+  .site{
+    height: 20rem;
+    width: 20rem;
+  }
+  .desTitle{
+    margin-top: 10rem;
+  }
+  .projectDes {
+    width: inherit;
+
+    font-size: 4vw;
+    margin: auto;
+    padding-right: 1rem;
+  }
+  #calculatorImg{
+    margin: auto;
+  }
 }
 /****************** FONTS ******************/
 
